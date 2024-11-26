@@ -14,4 +14,4 @@ SELECT
     INNER JOIN brands
         ON brands.brand_id = products.brand_id
     GROUP BY
-        stores.store_name, brand.brand_name
+        stores.store_name, brands.brand_name
